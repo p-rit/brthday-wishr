@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title> Birthday Wisher App</title>
+  <head>
+    <link href="../static/css/main.css" rel="stylesheet">
+  </head>
+    <body>
+      <div class="container">
+       <h1></h1>
+        <img src="https://giftergo.com/wp-content/uploads/2018/03/Birthday-GIF36.gif.gif" />
+        
+        <h3>Surprise Your friends, by sending birthday wishes in their inbox</h3>
+        <div class="email"> {{text | safe}} </div>
+        <form action="{{url_for('success')}}" method="POST">
+          <input title="Your email will be safe with us" placeholder="Enter  email(gmail) address" type="email" name="email_name" required> <br>
+          <input title="Your data will be safe with us" placeholder="Enter  DOB " type="Date" name="dob_name" required> <br>
+           <input title="Name would appear with the wishes" placeholder="Enter Your name " type="text" name="name" required> <br>
+          <button type="submit"> Submit </button>
+        </form>
+      </div>
+    </body>
+</html>
