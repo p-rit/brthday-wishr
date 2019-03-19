@@ -41,7 +41,7 @@ def success():
 				thr.start()
            
 				return render_template("success.html")
-		return render_template("index.html" , text ='Seems we have get already from that email address!')
+		return render_template("index.html" , text ='Seems like we have already got from that email address!')
 
 def wish(mail,dob,name):
 	while  True:
