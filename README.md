@@ -1,17 +1,6 @@
 # Birthday Wisher
 
-
-
-> Flask app to mail birthday wishes.
-
-
-
-
-
 ![](https://github.com/p-rit/brthday-wishr/blob/master/static/image/Capture.PNG)
-
-
-
 
 
 ## Built With
@@ -20,6 +9,10 @@
 * [Flask](http://flask.pocoo.org/) 
 * [Heroku](https://dashboard.heroku.com/) 
 
+
+
+## Future work
+* Make adaptive to work with mail services other than Gmail also.
 
 ## Contributing
 
